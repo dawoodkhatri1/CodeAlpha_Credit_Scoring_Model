@@ -4,6 +4,7 @@ You can run the code in Pycharm and vscode.
 
 I divided the task into following things:
 
+
 **Importing libraries:**
 
 pandas: Used for data manipulation and analysis.
@@ -26,6 +27,7 @@ sklearn.metrics: Offers metrics for model evaluation.
 
 Faker: Generates fake data.
 
+
 **Initialize Faker and Data Generation:**
 
 Faker is initialized to create realistic synthetic data.
@@ -38,9 +40,11 @@ fake_data dictionary contains:
 >>> credit_history: Random integers between 1 and 10.
 >>>> credit_score: Random integers between 300 and 850.
 
+
 **Data Conversion:**
 
 > The generated data is converted to a pandas DataFrame for easier manipulation.
+
 
 **Splitting Data:**
 
@@ -48,11 +52,13 @@ X contains the features (income, age, credit_history).
 
 y contains the target variable (credit_score).
 
+
 **Pipline Preprocessing:**
 
 ColumnTransformer applies transformations to specified columns.
 
 StandardScaler standardizes features by removing the mean and scaling to unit variance.
+
 
 **Pipline Regression:**
 
@@ -60,15 +66,18 @@ Pipeline chains preprocessing and model fitting steps.
 
 Ridge regression is used as the model.
 
+
 **HyperParameter Tuning:**
 
 GridSearchCV performs hyperparameter tuning using cross-validation.
 
 parameters dictionary specifies the range of alpha values for Ridge regression.
 
+
 **Train-Test Split and Prediction:**
 
 train_test_split splits the data into training and testing sets (80% train, 20% test).
+
 
 **Model Evaluation:**
 
@@ -76,11 +85,13 @@ r2_score and mean_squared_error evaluate the model's performance.
 
 The best hyperparameters are printed.
 
+
 **Prediction Function:**
 
 predict_credit_score: Function to predict credit scores using the trained model.
 
 A sample prediction is made using specified income, age, and credit_history.
+
 
 **Visualization:**  
 
