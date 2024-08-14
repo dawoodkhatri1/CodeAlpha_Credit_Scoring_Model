@@ -102,3 +102,7 @@ The output looks like this:
 ![image](https://github.com/user-attachments/assets/e36f034f-b53a-4b0f-89c8-92841a36812f)
 
 ![image](https://github.com/user-attachments/assets/29d9fe27-8538-49b4-a42d-dd0ba69376c0)
+
+## License
+
+[MIT License](LICENSE)
